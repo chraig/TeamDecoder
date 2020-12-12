@@ -1,0 +1,94 @@
+{
+    "pitch": {
+        "x": 100,
+        "y": 62.6
+    },
+    "sequence_timestamps": [
+        "2020-05-30T20:00:00+02:00",
+        "2020-05-30T20:00:01+02:00"
+    ],
+    "teams": [
+        {
+            "name": "Test FC",
+            "colors": {
+                "primary": "red",
+                "secondary": "white"
+            },
+            "players": [
+                {
+                    "player_key": 1,
+                    "player_name": "Player 1",
+                    "player_number": "1",
+                    "player_type": "Forward",
+                    "player_sequence": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 10,
+                            "y": 10
+                        }
+                    ]
+                },
+                {
+                    "player_key": 2,
+                    "player_name": "Player 2",
+                    "player_number": "2",
+                    "player_type": "Goal",
+                    "player_sequence": [
+                        {
+                            "x": 0,
+                            "y": 62.5
+                        },
+                        {
+                            "x": 10,
+                            "y": 52.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Test2 FC",
+            "colors": {
+                "primary": "red",
+                "secondary": "black"
+            },
+            "players": [
+                {
+                    "player_key": 21,
+                    "player_name": "Player 21",
+                    "player_number": "21",
+                    "player_type": "Forward",
+                    "player_sequence": [
+                        {
+                            "x": 100,
+                            "y": 62.5
+                        },
+                        {
+                            "x": 90,
+                            "y": 52.5
+                        }
+                    ]
+                },
+                {
+                    "player_key": 22,
+                    "player_name": "Player 22",
+                    "player_number": "22",
+                    "player_type": "Goal",
+                    "player_sequence": [
+                        {
+                            "x": 100,
+                            "y": 0
+                        },
+                        {
+                            "x": 90,
+                            "y": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
