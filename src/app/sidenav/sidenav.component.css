@@ -1,0 +1,58 @@
+.mat-sidenav-content {
+  height: 100vh;
+}
+
+.sidebar {
+  height: calc(100vH); /*100% not working*/
+  /*min-height: 100%;*/ /*not needed for sidebar visibility, only height*/
+  width: 300px;
+  background: rgba(33, 26, 63, 0.85);
+}
+
+.list-items {
+  padding-top:100px;
+}
+
+.list-item-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 10px 20px;
+  font-family: "Open Sans";
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: white;
+}
+
+.list-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(46, 80, 131);
+
+  /*set opacity to 0 by default*/
+  opacity: 0;
+
+  transform: scaleY(0);
+  transition: transform 0.4s, opacity 0.2s;
+}
+
+.list-item:hover::before {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.list-item i.material-icons {
+  margin-right: 10px;
+}

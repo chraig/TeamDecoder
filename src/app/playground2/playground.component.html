@@ -1,0 +1,15 @@
+<div class="TopBar">
+    <h2>{{_title}}</h2>
+</div>
+
+<div class="pitch">
+    <canvas #field_canvas width="600" height="413" style="background:lightgray;"></canvas>
+    <div>
+        <button mat-icon-button (click)="loadMatchSequence()">
+            <i class="material-icons">replay</i>
+        </button>
+        <button name="play-pause" mat-icon-button (click)="togglePlay()">
+            <i class="material-icons">{{_isPlaying ? "pause_circle_outline" : "play_circle_outline"}}</i>
+        </button>
+    </div>
+</div>

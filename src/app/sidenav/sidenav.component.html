@@ -1,0 +1,25 @@
+<mat-sidenav-container class="mat-sidenav-content">
+    <mat-sidenav class="sidebar" opened mode="side">
+        <div class="list-items">
+            <mat-nav-list>
+                <div class="list-item">
+                    <i class="material-icons">home</i>
+                    <a mat-list-item class="list-item-link" [routerLink]='["home"]'>Home</a>
+                </div>
+                <div class="list-item">
+                    <i class="material-icons">play_circle_filled</i>
+                    <a mat-list-item class="list-item-link" [routerLink]='["playground"]'>Playground</a>
+                </div>
+                <div class="list-item">
+                    <i class="material-icons">settings</i>
+                    <a mat-list-item class="list-item-link" [routerLink]='["settings"]'>Settings</a>
+                </div>
+            </mat-nav-list>
+        </div>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
