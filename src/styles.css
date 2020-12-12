@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*global app theme*/
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/*added for disabling all margins in window space*/
+body {
+    margin: 0 !important;
+}
+
+/*set off content from border*/
+main {
+	margin-left: 25px;
+}
+
+/*width of example forms*/
+form {
+	width:50%;
+}
+
+/*logo dimensions in top bar*/
+.logo {
+    height: 30px;
+    margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}

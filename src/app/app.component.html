@@ -1,0 +1,26 @@
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <a href="#/"><img src="favicon.ico" class="logo" /></a>
+    </div>
+    <ul class="nav navbar-nav nav-pills">
+        <li routerLinkActive="active">
+            <a routerLink="/home">Home</a>
+        </li>
+        <li routerLinkActive="active">
+            <a routerLink="/playground">Playground</a>
+        </li>
+        <li routerLinkActive="active">
+            <a routerLink="/settings">Settings</a>
+        </li>
+    </ul>
+</nav>
+
+<!--
+<div class="app-view">
+    <router-outlet></router-outlet>
+</div>
+-->
+
+<main class="app-view">
+    <router-outlet></router-outlet>
+</main>
